@@ -18,10 +18,10 @@
 
 | Name Content | Link Download |
 | ------------ | ------------- |
-| **country.mmdb** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/country.mmdb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/country.mmdb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/country.mmdb) |
-| **geoip.dat** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.dat) |
-| **geoip.db** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.db) |
-| **geoip.metadb** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.metadb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.metadb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.metadb) |
+| **country.mmdb** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/country.mmdb) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/country.mmdb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/country.mmdb) |
+| **geoip.dat** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geoip.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.dat) |
+| **geoip.db** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geoip.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.db) |
+| **geoip.metadb** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geoip.metadb) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.metadb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.metadb) |
 
 ## **geosite.dat,geosite.db**
 
@@ -52,8 +52,8 @@
 
 | Name Content | Link Download |
 | ------------ | ------------- |
-| **geosite.dat** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.dat) |
-| **geosite.db** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.db) |
+| **geosite.dat** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geosite.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geosite.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geosite.dat) |
+| **geosite.db** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geosite.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geosite.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geosite.db) |
 
 ---
 ## Install & Update
@@ -61,18 +61,18 @@
 ### Use Auto Script
 - Wget
 ```shell
-bash -c "$(wget -qO - 'https://github.com/rizkikotet-dev/GeoSite-WRT/raw/refs/heads/master/main.sh')"
+bash -c "$(wget -qO - 'https://github.com/antifragile0/GeoSite-WRT/raw/refs/heads/master/main.sh')"
 ```
 - Curl
 ```shell
-bash -c "$(curl -fsSL 'https://github.com/rizkikotet-dev/GeoSite-WRT/raw/refs/heads/master/main.sh')"
+bash -c "$(curl -fsSL 'https://github.com/antifragile0/GeoSite-WRT/raw/refs/heads/master/main.sh')"
 ```
 
 ---
 
 ## **OpenClash-Meta**
 
-[Download Full Config Meta](https://github.com/rtaserver/Config-Open-ClashMeta?tab=readme-ov-file#----config-openclash---meta-kernel)
+[Download Full Config Meta](https://github.com/antifragile0/Config-Open-ClashMeta?tab=readme-ov-file#----config-openclash---meta-kernel)
 ```yaml
 
 rules:
