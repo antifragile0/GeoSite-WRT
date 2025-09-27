@@ -17,12 +17,3 @@ keyword:speedtestcustom
 keyword:openspeedtest
 keyword:speedchecker
 keyword:iperf
-speed.hetzner
-datawaster.net
-hletrd.github.io
-uttkarsh.net
-richienb.github.io
-cdn-5ev.pages.dev
-dummy-8vl.pages.dev
-wallbuck.com
-laksa19.github.io
