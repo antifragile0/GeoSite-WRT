@@ -30,7 +30,7 @@ jobs:
           echo "RULE_UMUM=https://raw.githubusercontent.com/antifragile0/GeoSite-WRT/refs/heads/master/rule/rule_umum.txt" >> $GITHUB_ENV
           echo "RULE_IPCHECK=https://raw.githubusercontent.com/antifragile0/GeoSite-WRT/refs/heads/master/rule/rule_ipcheck.txt" >> $GITHUB_ENV
           echo "RULE_VIDCONFERENCE=https://raw.githubusercontent.com/antifragile0/GeoSite-WRT/refs/heads/master/rule/rule-videoconference.txt" >> $GITHUB_ENV
-          echo "URLTEST=https://raw.githubusercontent.com/antifragile0/GeoSite-WRT/rule/urltest.txt" >> $GITHUB_ENV
+          echo "URLTEST=https://raw.githubusercontent.com/antifragile0/GeoSite-WRT/refs/heads/master/rule/urltest.txt" >> $GITHUB_ENV
           echo "RULE_SPEEDTEST=https://raw.githubusercontent.com/antifragile0/GeoSite-WRT/refs/heads/master/rule/rule_speedtest.txt" >> $GITHUB_ENV
           echo "MALICIOUS_HOST=https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_light.txt" >> $GITHUB_ENV
           echo "RULE_BANK_ID=https://raw.githubusercontent.com/antifragile0/GeoSite-WRT/refs/heads/master/rule/rule_bank-id.txt" >> $GITHUB_ENV
