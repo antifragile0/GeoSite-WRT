@@ -35,7 +35,6 @@ include:vimeo
 include:visualarts
 include:volmoe
 include:wwe
-include:youtube
 include:zeetv
 
 # > NIMO TV
@@ -335,3 +334,5 @@ keyword:likee
 loklok.video
 loklok.cloud
 subloklok.com
+loklok.group
+applovin.com
