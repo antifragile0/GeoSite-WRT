@@ -18,10 +18,10 @@
 
 | Name Content | Link Download |
 | ------------ | ------------- |
-| **country.mmdb** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/country.mmdb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/country.mmdb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/country.mmdb) |
-| **geoip.dat** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.dat) |
-| **geoip.db** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.db) |
-| **geoip.metadb** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.metadb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.metadb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.metadb) |
+| **country.mmdb** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/country.mmdb) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/country.mmdb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/country.mmdb) |
+| **geoip.dat** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geoip.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.dat) |
+| **geoip.db** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geoip.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.db) |
+| **geoip.metadb** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geoip.metadb) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.metadb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geoip.metadb) |
 
 ## **geosite.dat,geosite.db**
 
@@ -29,11 +29,6 @@
 
 | geosite.dat,geosite.db |
 | ---------------- |
-|  `geosite:category-ads-all` |
-|  `geosite:oisd-full` |
-|  `geosite:oisd-small` |
-|  `geosite:oisd-nsfw` |
-|  `geosite:ads-ultimate` |
 |  `geosite:rule-ads` |
 |  `geosite:rule-doh` |
 |  `geosite:rule-gaming` |
@@ -45,15 +40,14 @@
 |  `geosite:rule-ipcheck` |
 |  `geosite:rule-speedtest` |
 |  `geosite:videoconference` |
-|  `geosite:rule-malicious` |
 |  `geosite:urltest` |
 |  `geosite:bank-id` |
 
 
 | Name Content | Link Download |
 | ------------ | ------------- |
-| **geosite.dat** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.dat) |
-| **geosite.db** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.db) |
+| **geosite.dat** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geosite.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geosite.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geosite.dat) |
+| **geosite.db** | [Github release](https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geosite.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geosite.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/antifragile0/GeoSite-WRT@release/geosite.db) |
 
 ---
 ## Install & Update
@@ -61,51 +55,37 @@
 ### Use Auto Script
 - Wget
 ```shell
-bash -c "$(wget -qO - 'https://github.com/rizkikotet-dev/GeoSite-WRT/raw/refs/heads/master/main.sh')"
+bash -c "$(wget -qO - 'https://github.com/antifragile0/GeoSite-WRT/raw/refs/heads/master/main.sh')"
 ```
 - Curl
 ```shell
-bash -c "$(curl -fsSL 'https://github.com/rizkikotet-dev/GeoSite-WRT/raw/refs/heads/master/main.sh')"
+bash -c "$(curl -fsSL 'https://github.com/antifragile0/GeoSite-WRT/raw/refs/heads/master/main.sh')"
 ```
 
 ---
 
 ## **OpenClash-Meta**
 
-[Download Full Config Meta](https://github.com/rtaserver/Config-Open-ClashMeta?tab=readme-ov-file#----config-openclash---meta-kernel)
+[Download Full Config Meta](https://github.com/antifragile0/Config-Open-ClashMeta?tab=readme-ov-file#----config-openclash---meta-kernel)
 ```yaml
 
 rules:
 - DST-PORT,7895,REJECT
 - DST-PORT,7892,REJECT
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- DST-PORT,123/136/137-139,Traffic-Direct,udp
-- RULE-SET,RP-Direct,Traffic-Direct
-- RULE-SET,RP-Reject,Traffic-Manual-Reject
-- AND,((NETWORK,udp),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
-- AND,((GEOSITE,oisd-full),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),Traffic-Ads
-- AND,((GEOSITE,rule-ads),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),Traffic-Ads
-- GEOSITE,oisd-nsfw,Traffic-Porn
-- GEOIP,GOOGLE,Traffic-Browsing
-- GEOSITE,GOOGLE,Traffic-Browsing
-- AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),Traffic-Browsing
-- AND,((NETWORK,UDP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),Traffic-Browsing
-- GEOSITE,rule-indo,Traffic-Indo
-- GEOSITE,rule-sosmed,Traffic-Indo
-- GEOSITE,rule-streaming,Traffic-Indo
-- GEOIP,id,Traffic-Indo
-- GEOIP,facebook,Traffic-Indo
-- GEOIP,netflix,Traffic-Indo
-- GEOIP,telegram,Traffic-Indo
-- GEOIP,twitter,Traffic-Indo
-- RULE-SET,RP-Indo,Traffic-Indo
-- GEOSITE,rule-gaming,Traffic-Gaming
-- AND,((NOT,((RULE-SET,RP-Umum))),(NETWORK,TCP)),Traffic-Gaming-Port
-- AND,((NOT,((RULE-SET,RP-Umum))),(NETWORK,UDP)),Traffic-Gaming-Port
-- GEOSITE,rule-speedtest,Traffic-Browsing
-- AND,((RULE-SET,RP-Umum),(NETWORK,TCP)),Traffic-Browsing
-- AND,((RULE-SET,RP-Umum),(NETWORK,UDP)),Traffic-Browsing
-- MATCH,Traffic-Browsing
+#- AND,((GEOSITE,rule-ads),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),REJECT
+- RULE-SET,Direct,DIRECT
+- RULE-SET,UDP,UDP-Traffic
+#- RULE-SET,Pilih,PILIH
+- RULE-SET,Khusus,Bandwidth
+- GEOSITE,bank-id,Indo-Traffic
+- GEOSITE,rule-indo,Indo-Traffic
+- GEOSITE,rule-sosmed,Indo-Traffic
+- GEOSITE,rule-streaming,Indo-Traffic
+- GEOSITE,rule-gaming,UDP-Traffic
+- GEOSITE,rule-speedtest,PILIH
+- GEOSITE,urltest,Ping-Alive
+- MATCH,GLOBAL
 ```
 
 ## Thangks To
