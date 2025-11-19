@@ -153,7 +153,7 @@ Nikki() {
 	cmdinstall "uci set nikki.mixin.geodata_loader=memconservative" "Set Geodata Loadder"
 	cmdinstall "uci set nikki.mixin.geosite_url=https://github.com/antifragile0/GeoSite-WRT/releases/download/latest/geosite.dat" "Set GeoSite URL"
 	cmdinstall "uci set nikki.mixin.geox_auto_update=1" "Set GeoX Auto Udate"
-	cmdinstall "uci set nikki.mixin.geox_update_interval=24" "Set GeoX Interval"
+	cmdinstall "uci set nikki.mixin.geox_update_interval=168" "Set GeoX Interval"
     cmdinstall "uci commit nikki" "Commit Nikki"
 
     echo -e "${SUCCESS} Configuration installation completed successfully!"
