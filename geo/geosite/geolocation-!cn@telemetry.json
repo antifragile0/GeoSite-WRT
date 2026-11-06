@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "cafe.github.com",
+        "collector.github.com",
+        "copilot-telemetry-service.githubusercontent.com",
+        "copilot-telemetry.githubusercontent.com",
+        "dc.services.visualstudio.com",
+        "rt.services.visualstudio.com",
+        "firebaselogging-pa.googleapis.com",
+        "firebaselogging.googleapis.com",
+        "sentry.ppy.sh",
+        "paypalbeacon.com",
+        "adobestats.io",
+        "incoming.telemetry.mozilla.org",
+        "incoming-telemetry.thunderbird.net",
+        "applicationinsights.io",
+        "applicationinsights.net",
+        "aria.ms",
+        "data.microsoft.com",
+        "telemetry.microsoft.com",
+        "in.applicationinsights.azure.com",
+        "dc.applicationinsights.azure.com",
+        "live.applicationinsights.azure.com",
+        "cloudflareinsights.com",
+        "akstat.io"
+      ],
+      "domain_suffix": [
+        ".cafe.github.com",
+        ".collector.github.com",
+        ".paypalbeacon.com",
+        ".adobestats.io",
+        ".applicationinsights.io",
+        ".applicationinsights.net",
+        ".aria.ms",
+        ".data.microsoft.com",
+        ".telemetry.microsoft.com",
+        ".in.applicationinsights.azure.com",
+        ".cloudflareinsights.com",
+        ".akstat.io"
+      ]
+    }
+  ]
+}
